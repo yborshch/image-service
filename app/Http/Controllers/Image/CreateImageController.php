@@ -9,6 +9,6 @@ class CreateImageController extends Controller
 {
     public function __invoke(): Response
     {
-        return response()->view('');
+        return response()->view('404');
     }
 }
